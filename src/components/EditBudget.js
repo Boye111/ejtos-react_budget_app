@@ -1,9 +1,7 @@
-import React, { useContext, useState } from 'react';
-import { AppContext } from '../context/AppContext';
+import React, { useState } from 'react';
 
 const EditBudget = (props) => {
     const [value, setValue] = useState(props.budget);
-    const [ currency ] = useContext(AppContext);
     return (
         <>
         <div className='input-group-prepend'>

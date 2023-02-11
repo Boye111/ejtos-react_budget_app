@@ -1,7 +1,6 @@
 import React, {useContext, useState, useEffect} from 'react';
 import {AppContext} from '../context/AppContext';
 import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownToggle from 'react-bootstrap/esm/DropdownToggle';
 
 const Currency = () => {
     const {currency, dispatch} = useContext(AppContext);
